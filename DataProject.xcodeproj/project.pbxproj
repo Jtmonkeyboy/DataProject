@@ -54,14 +54,46 @@
 		CB99CBC321AC7D280011D2F4 /* DataProject */ = {
 			isa = PBXGroup;
 			children = (
-				CB99CBC421AC7D280011D2F4 /* AppDelegate.swift */,
-				CB99CBC621AC7D280011D2F4 /* ViewController.swift */,
-				CB99CBC821AC7D280011D2F4 /* Main.storyboard */,
-				CB99CBCB21AC7D290011D2F4 /* Assets.xcassets */,
-				CB99CBCD21AC7D290011D2F4 /* LaunchScreen.storyboard */,
-				CB99CBD021AC7D290011D2F4 /* Info.plist */,
+				CB99CBD921AC7DDF0011D2F4 /* Model */,
+				CB99CBD621AC7D920011D2F4 /* Resources */,
+				CB99CBD821AC7DD60011D2F4 /* Controller */,
+				CB99CBD721AC7DC20011D2F4 /* View */,
 			);
 			path = DataProject;
+			sourceTree = "<group>";
+		};
+		CB99CBD621AC7D920011D2F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CB99CBC421AC7D280011D2F4 /* AppDelegate.swift */,
+				CB99CBCB21AC7D290011D2F4 /* Assets.xcassets */,
+				CB99CBD021AC7D290011D2F4 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CB99CBD721AC7DC20011D2F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB99CBC821AC7D280011D2F4 /* Main.storyboard */,
+				CB99CBCD21AC7D290011D2F4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CB99CBD821AC7DD60011D2F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB99CBC621AC7D280011D2F4 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CB99CBD921AC7DDF0011D2F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3L692KDA4;
-				INFOPLIST_FILE = DataProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DataProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +334,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M3L692KDA4;
-				INFOPLIST_FILE = DataProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DataProject/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
